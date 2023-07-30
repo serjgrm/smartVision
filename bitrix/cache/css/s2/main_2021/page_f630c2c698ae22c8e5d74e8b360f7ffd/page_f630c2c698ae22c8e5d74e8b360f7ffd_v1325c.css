@@ -1,0 +1,20 @@
+
+
+/* Start:/local/templates/main_2021/components/bitrix/news.list/faq/style.css?1656932150488*/
+.faq_list{ max-width: 620px; margin: 0 auto; margin-top: 16px; }
+.faq_list .item_title{ 
+	text-transform: uppercase;
+	padding-bottom: 4px;
+	border-bottom: 1px dashed #002B5A; 
+	cursor: pointer;
+	margin-bottom: 0; 
+	font-size: 18px;
+    text-transform: uppercase;
+    color: #000000; 
+	text-align: left !important;
+}
+.faq_list .item_title.active{ color: #FF4E45; border-bottom: none;}
+.faq_list .item_body { padding: 10px 18px; display: none; }
+.faq_list .faq_item { margin-bottom: 12px; }
+/* End */
+/* /local/templates/main_2021/components/bitrix/news.list/faq/style.css?1656932150488 */

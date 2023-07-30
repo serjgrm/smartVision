@@ -1,0 +1,229 @@
+@media (max-width: 767px) { /* line 3, ../sass/media.scss */
+  .portfolio-detail .title h2 { text-align: center; }
+  /* line 4, ../sass/media.scss */
+  .portfolio-detail .title .subtitle { display: inline-block; } 
+  .float-left {float: none!important;}
+  .float-right {float: none!important;}
+  .name-page {max-height: inherit !important;}
+  }
+@media (max-width: 580px) { 
+	.contacts .social-facebook, .contacts .social-instagram {
+		display: none !important;
+	}
+	.mobile_icon {
+		display: block !important;
+	}
+	
+	#messanger_popup .modal-wrapper {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) { /* line 8, ../sass/media.scss */
+  .portfolio_front .portfolio_item .cont .wr { padding: 6% 6.8%; } 
+ 
+ .f-page-section {
+	padding: 40px 0;
+ }
+ .f-page-section.services_bg {
+	padding-bottom: 0px;
+ }
+ 
+ .services_list .service_section {
+ margin: 0 0 40px;
+ }
+ .services_list .c_title {
+ margin-bottom: 0;
+ }
+}
+@media (max-width: 480px) { /* line 13, ../sass/media.scss */
+  .header { padding: 18px 0; }
+  /* line 14, ../sass/media.scss */
+  .header .col.logo { padding-left: 0; }
+  /* line 15, ../sass/media.scss */
+  .header .col.logo img { max-width: 88px; max-width: 28vw; }
+  /* line 17, ../sass/media.scss */
+  .header .menu-btn a { width: 26px; height: 26px; }
+  /* line 18, ../sass/media.scss */
+  .header .col.contacts div + div { padding-left: 0; }
+  /* line 20, ../sass/media.scss */
+  .blog_item .img .cont { min-height: 200px; }
+  /* line 22, ../sass/media.scss */
+  .blog_item .img .cont .title { font-size: 28px; }
+  /* line 26, ../sass/media.scss */
+  .services_list .c_title .subsection_title { font-size: 24px; }
+  /* line 30, ../sass/media.scss */
+  .section-title h1, .section-title h2, .page-title h1, .page-title h2 { font-size: 26px; }
+  /* line 32, ../sass/media.scss */
+  .inner-page-section:first-of-type { padding-top: 110px; }
+  /* line 35, ../sass/media.scss */
+  #portfolio_slider_nav .swiper-pagination-bullet { margin: 0 8px; }
+  /* line 36, ../sass/media.scss */
+  .map_section .list .list-item .title { font-size: 12px; }
+  /* line 38, ../sass/media.scss */
+  .map_section .list .list-item .title:after { bottom: 10px; } }
+@media (max-width: 440px) { /* line 42, ../sass/media.scss */
+  .front-promo .circle_wrapper i .desc { font-size: 0; line-height: 0; }
+  /* line 43, ../sass/media.scss */
+  .front-promo .circle_wrapper i .desc .digits { font-size: 52px; line-height: 0.8em; }
+  /* line 44, ../sass/media.scss */
+  .front-promo .circle_wrapper i .desc .text { font-size: 16px; line-height: 0.8em; } }
+@media (min-width: 768px) and (max-width: 992px) { /* line 48, ../sass/media.scss */
+  .portfolio_item.fanky { padding-top: 42%; } }
+@media (max-width: 992px) { /* line 51, ../sass/media.scss */
+  .f-page-section.services_bg .bg { background-size: contain; background-position: left bottom; }
+  /* line 56, ../sass/media.scss */
+  .map_section .list { position: absolute; height: auto; display: flex; justify-content: space-around; left: 0; right: 0; width: 100%; }
+  /* line 62, ../sass/media.scss */
+  .map_section .list .list-item { height: auto; }
+  /* line 65, ../sass/media.scss */
+  .map_section .list .list-item .img { display: none; }
+  /* line 66, ../sass/media.scss */
+  .map_section .list .list-item .title { padding-top: 12px; margin: 5px; }
+  /* line 70, ../sass/media.scss */
+  table.support-tarifs { font-size: 14px; }
+  /* line 72, ../sass/media.scss */
+  table.support-tarifs .price-from { font-size: 14px; }
+  /* line 74, ../sass/media.scss */
+  table.support-tarifs .price-from b { font-size: 18px; }
+  /* line 76, ../sass/media.scss */
+  table.support-tarifs .fz-28 { font-size: 24px; } }
+@media (min-width: 768px) { /* line 80, ../sass/media.scss */
+  .front-promo { padding-bottom: 110px; padding-top: 35px; }
+  /* line 81, ../sass/media.scss */
+  .front-promo .circle_wrapper i { /*&#dot_1 .desc { margin-top: -20px;    }
+&#dot_2 .desc { margin-top: -10px;    }*/ }
+  /* line 82, ../sass/media.scss */
+  .front-promo .circle_wrapper i .desc { color: #FFFFFF; position: absolute; right: 35px; left: auto; bottom: auto; text-align: center; }
+  /* line 83, ../sass/media.scss */
+  .front-promo .circle_wrapper i .desc .digits { font-size: 94px; line-height: 0.8em; font-weight: bold; }
+  /* line 84, ../sass/media.scss */
+  .front-promo .circle_wrapper i .desc .text { text-transform: uppercase; font-size: 20px; line-height: 0.9em; font-weight: 600; white-space: nowrap; }
+  /* line 88, ../sass/media.scss */
+  .front-promo .circle_wrapper i#dot_1 .desc { left: auto; bottom: auto; margin-top: -20px; }
+  /* line 89, ../sass/media.scss */
+  .front-promo .circle_wrapper i#dot_2 .desc { left: auto; bottom: auto; margin-top: -10px; }
+  /* line 90, ../sass/media.scss */
+  .front-promo .circle_wrapper i#dot_3 .desc { left: auto; bottom: auto; }
+  /* line 92, ../sass/media.scss */
+  .front-promo #promotext { font-size: 50px; position: absolute; right: 6%; top: 23%; padding: 0; } 
+  
+  .mobile-img {padding-bottom: 65px;}
+  }
+@media (min-width: 1200px) { /* line 104, ../sass/media.scss */
+  .inner-page-section.contacts .row.contacts-list .first:before, .inner-page-section.contacts .row.contacts-list .last:after { content: ''; display: block; position: absolute; height: 424px; width: 589px; }
+  /* line 111, ../sass/media.scss */
+  .inner-page-section.contacts .row.contacts-list .first:before { background: url("../images/contacts_l.png") center center no-repeat; background-size: contain; right: 100%; top: -110px; }
+  /* line 116, ../sass/media.scss */
+  .inner-page-section.contacts .row.contacts-list .last:after { background: url("../images/contacts_r.png") center center no-repeat; background-size: contain; left: 100%; top: -100px; } 
+  
+  .overlay .button_holder {
+  margin-bottom: -40px;
+  }
+  #messanger_popup .modal-wrapper {
+  width: 420px;
+  }
+  
+  }
+/**/
+@media (max-width: 992px) { /* line 129, ../sass/media.scss */
+  main.content h1 { font-size: 40px; font-size: clamp(26px, 5vw, 44px); }
+  /* line 130, ../sass/media.scss */
+  main.content h2 { font-size: 30px; font-size: clamp(22px, 4.5vw, 34px); }
+  /* line 131, ../sass/media.scss */
+  main.content h3 { font-size: 22px; font-size: clamp(18px, 4vw, 24px); }
+  /* line 132, ../sass/media.scss */
+  main.content h4 { font-size: 20px; font-size: clamp(16px, 3.5vw, 22px); }
+  /* line 133, ../sass/media.scss */
+  main.content h5 { font-size: 18px; font-size: clamp(16px, 3vw, 20px); }
+  /* line 134, ../sass/media.scss */
+  main.content .section-title h1, main.content .page-title h1, main.content .section-title h2 { font-size: 44px; font-size: clamp(26px, 5vw, 48px); }
+  /* line 138, ../sass/media.scss */
+  .promo_text { font-size: 22px; font-size: clamp(18px, 4vw, 24px); } 
+  
+  .service_section ul {
+	padding-left: 40px;
+  }
+  
+  /* main.content .section-title h1, main.content .section-title h2, .section-title h1, .section-title h2, .page-title h1, .page-title h2 {
+	 max-width: 90%;
+ }*/
+  
+  }
+@media (max-width: 720px) { /* line 142, ../sass/media.scss */
+  main.content h1 { font-size: 38px; font-size: clamp(26px, 5vw, 44px); }
+  /* line 143, ../sass/media.scss */
+  main.content h2 { font-size: 28px; font-size: clamp(22px, 4.5vw, 34px); }
+  /* line 144, ../sass/media.scss */
+  main.content h3 { font-size: 21px; font-size: clamp(18px, 4vw, 24px); }
+  /* line 145, ../sass/media.scss */
+  main.content .section-title h1, main.content .page-title h1, main.content .section-title h2 { font-size: 38px; font-size: clamp(26px, 5vw, 48px); }
+  /* line 149, ../sass/media.scss */
+  .promo_text { font-size: 21px; font-size: clamp(18px, 4vw, 24px); } 
+  
+  .page_buttons {
+	right: 5px;
+  }
+  
+  .mobile-img {
+	padding-top: 65px;
+	padding-bottom: 65px;
+  }
+  
+  }
+@media (max-width: 540px) { /* line 153, ../sass/media.scss */
+  main.content h1 { font-size: 34px; font-size: clamp(26px, 5vw, 44px); }
+  /* line 154, ../sass/media.scss */
+  main.content h2 { font-size: 26px; font-size: clamp(22px, 4.5vw, 34px); }
+  /* line 155, ../sass/media.scss */
+  main.content h3 { font-size: 20px; font-size: clamp(18px, 4vw, 24px); }
+  /* line 156, ../sass/media.scss */
+  main.content .section-title h1, main.content .page-title h1, main.content .section-title h2 { font-size: 34px; font-size: clamp(26px, 5vw, 48px); }
+  }
+@media (max-width: 480px) { /* line 163, ../sass/media.scss */
+  main.content h1 { font-size: 30px; font-size: clamp(26px, 5vw, 44px); }
+  /* line 164, ../sass/media.scss */
+  main.content h2 { font-size: 24px; font-size: clamp(22px, 4.5vw, 34px); }
+  /* line 165, ../sass/media.scss */
+  main.content h3 { font-size: 20px; font-size: clamp(18px, 4vw, 24px); }
+  /* line 166, ../sass/media.scss */
+  main.content h4 { font-size: 18px; font-size: clamp(16px, 3.5vw, 22px); }
+  /* line 167, ../sass/media.scss */
+  main.content h5 { font-size: 17px; font-size: clamp(16px, 3vw, 20px); }
+  /* line 168, ../sass/media.scss */
+  main.content .section-title h1, main.content .page-title h1, main.content .section-title h2 { font-size: 30px; font-size: clamp(26px, 5vw, 48px); }
+  /* line 172, ../sass/media.scss */
+  .button.small { font-size: 12px; }
+  
+  .button { font-size: 15px; }
+  /* line 175, ../sass/media.scss */
+  .promo_text { font-size: 20px; font-size: clamp(18px, 4vw, 24px); } }
+@media (max-width: 380px) { /* line 179, ../sass/media.scss */
+  main.content h1 { font-size: 26px; }
+  /* line 180, ../sass/media.scss */
+  main.content h2 { font-size: 22px; }
+  /* line 181, ../sass/media.scss */
+  main.content h3 { font-size: 18px; }
+  /* line 182, ../sass/media.scss */
+  main.content h4 { font-size: 16px; }
+  /* line 183, ../sass/media.scss */
+  main.content h5 { font-size: 16px; }
+  /* line 184, ../sass/media.scss */
+  main.content .section-title h1, main.content .page-title h1, main.content .section-title h2 { font-size: 26px; }
+  /* line 188, ../sass/media.scss */
+  .promo_text { font-size: 18px; } }
+
+@media screen and (max-width: 640px) {
+	.form_section .section_numer{ width: 30%;}
+	.form_section .section_content{ width: 66%;}
+	.mob-text-funct {
+	margin: 0 15px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.form_section .section_numer{ width: 100%; float: none;max-width: 100%; margin-bottom: 18px;}
+    .form_section .section_numer .circle{ width: 80px; display: inline-block;}
+    .form_section .section_numer .form_section_title{  display: inline-block; line-height: 80px; vertical-align: top; margin: 0; margin-left: 18px;}
+    .form_section .section_content{ width: 100%; float: none;}
+}
