@@ -32,122 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<link rel="canonical" href="https://cursor.net.ua/bitrix/js/ui/polyfill/closest/js/closest.js" />
 		
 
-		<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {
-
-var cl = "bx-core";
-var ht = d.documentElement;
-var htc = ht ? ht.className : undefined;
-if (htc === undefined || htc.indexOf(cl) !== -1)
-{
-return;
-}
-
-var ua = n.userAgent;
-if (/(iPad;)|(iPhone;)/i.test(ua))
-{
-cl += " bx-ios";
-}
-else if (/Android/i.test(ua))
-{
-cl += " bx-android";
-}
-
-cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");
-
-cl += w.devicePixelRatio && w.devicePixelRatio >= 2
-? " bx-retina"
-: " bx-no-retina";
-
-var ieVersion = -1;
-if (/AppleWebKit/.test(ua))
-{
-cl += " bx-chrome";
-}
-else if ((ieVersion = getIeVersion()) > 0)
-{
-cl += " bx-ie bx-ie" + ieVersion;
-if (ieVersion > 7 && ieVersion < 10 && !isDoctype())
-{
-cl += " bx-quirks";
-}
-}
-else if (/Opera/.test(ua))
-{
-cl += " bx-opera";
-}smrtvisions@gmail.com
-else if (/Gecko/.test(ua))
-{smrtvisions@gmail.com
-cl += " bx-firefox";
-}
-
-if (/Macintosh/i.test(ua))
-{
-cl += " bx-mac";
-}
-
-ht.className = htc ? htc + " " + cl : cl;
-
-function isDoctype()
-{
-if (d.compatMode)
-{
-return d.compatMode == "CSS1Compat";
-}
-
-return d.documentElement && d.documentElement.clientHeight;
-}
-
-function getIeVersion()
-{
-if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua))
-{
-return -1;
-}
-
-var rv = -1;
-if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w))
-{
-rv = 11;
-}
-else if (!!d.documentMode && d.documentMode >= 10)
-{
-rv = 10;
-}
-else if (!!d.documentMode && d.documentMode >= 9)
-{
-rv = 9;
-}
-else if (d.attachEvent && !/Opera/.test(ua))
-{
-rv = 8;
-}
-
-if (rv == -1 || rv == 8)
-{
-var re;
-if (n.appName == "Microsoft Internet Explorer")
-{
-re = new RegExp("MSIE ([0-9]+[\.0-9]*)");
-if (re.exec(ua) != null)
-{
-rv = parseFloat(RegExp.$1);
-}
-}
-else if (n.appName == "Netscape")
-{
-rv = 11;
-re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");
-if (re.exec(ua) != null)
-{
-rv = parseFloat(RegExp.$1);
-}
-}
-}
-
-return rv;
-}
-
-})(window, document, navigator);</script>
+		<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
 
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,800,900&display=swap" type="text/css"  rel="stylesheet" />
@@ -470,7 +355,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div id="comp_32dbc5394f5882c8e2395ee6fa0cbb02">
 		
 	
-<form name="SIMPLE_FORM_5" action="/bitrix/js/ui/polyfill/closest/js/closest.js" method="POST" enctype="multipart/form-data"><input type="hidden" name="bxajaxid" id="bxajaxid_32dbc5394f5882c8e2395ee6fa0cbb02_8BACKi" value="32dbc5394f5882c8e2395ee6fa0cbb02" /><input type="hidden" name="AJAX_CALL" value="Y" /><input type="hidden" name="sessid" id="sessid" value="14df438e2071d036e304cfd5447fd6d7" /><input type="hidden" name="WEB_FORM_ID" value="5" />	<div class="styled">
+<form name="SIMPLE_FORM_5" action="/bitrix/js/ui/polyfill/closest/js/closest.js" method="POST" enctype="multipart/form-data"><input type="hidden" name="bxajaxid" id="bxajaxid_32dbc5394f5882c8e2395ee6fa0cbb02_8BACKi" value="32dbc5394f5882c8e2395ee6fa0cbb02" /><input type="hidden" name="AJAX_CALL" value="Y" /><input type="hidden" name="sessid" id="sessid" value="7cbbf554a8fe6898fd9ca5a727f9bfa8" /><input type="hidden" name="WEB_FORM_ID" value="5" />	<div class="styled">
 
 		
 		<input type="hidden" id="fch_a" name="form_hidden_73" value="" />		
@@ -686,7 +571,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
 <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1637014795261011"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
 BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
-<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s2','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1689896128','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'14df438e2071d036e304cfd5447fd6d7'});</script><script type="text/javascript"  src="/bitrix/cache/js/s2/main_2021/kernel_main/kernel_main_v1.js?1685697183163742"></script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s2','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1690817509','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'7cbbf554a8fe6898fd9ca5a727f9bfa8'});</script><script type="text/javascript"  src="/bitrix/cache/js/s2/main_2021/kernel_main/kernel_main_v1.js?1685697183163742"></script>
 <script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/pageobject/pageobject.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/js/main/dd.js','/local/templates/main_2021/js/vendor/jquery-3.3.1.min.js','/local/templates/main_2021/js/vendor/jquery.waypoints.min.js','/local/templates/main_2021/js/vendor/simplebar.min.js','/local/templates/main_2021/js/vendor/swiper.min.js','/local/templates/main_2021/js/jquery.fancybox.min.js','/local/templates/main_2021/js/jquery.inputmask.min.js','/local/templates/main_2021/js/jquery-ui/js/jquery-ui-1.10.3.custom.min.js','/local/templates/main_2021/js/jquery.formstyler.min.js','/local/templates/main_2021/js/main.js','/local/templates/main_2021/js/animation.js','/local/templates/main_2021/js/promo_test.js']);</script>
 <script type="text/javascript">BX.setCSSList(['/local/templates/main_2021/css/vendor/bootstrap-grid.min.css','/local/templates/main_2021/css/vendor/simplebar.css','/local/templates/main_2021/css/vendor/swiper.min.css','/local/templates/main_2021/css/vendor/animate.min.css','/local/templates/main_2021/css/jquery.formstyler.css','/local/templates/main_2021/css/jquery.fancybox.min.css','/local/templates/main_2021/js/jquery-ui/css/smoothness/jquery-ui-1.10.3.custom.min.css','/local/templates/main_2021/css/style.css','/local/templates/main_2021/css/media.css','/local/templates/main_2021/css/sprites.css']);</script>
 <script type="text/javascript">
@@ -727,7 +612,7 @@ BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/m
 
 <script type="text/javascript"  src="/bitrix/cache/js/s2/main_2021/template_8fbed2b60bfdbc2bef8a8f0c632ee8d8/template_8fbed2b60bfdbc2bef8a8f0c632ee8d8_v1.js?1684854180725222"></script>
 <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "ccf66e955ca53d0442559b9ca3e372bc"]); _ba.push(["host", "cursor.net.ua"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
-<script>new Image().src='https://cursorweb.net/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATYyOTYwMAExNzIxMDAwMTI4AS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMjEuMDcuMjAyMyAwMjozNToyOAExNzIxMDAwMTI4AS8BAQEC&k=4ad2bff52d7035a566f593c8a8cef31c';
+<script>new Image().src='https://cursorweb.net/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATYzMjYzMwExNzIxOTIxNTA5AS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMzEuMDcuMjAyMyAxODozMTo0OQExNzIxOTIxNTA5AS8BAQEC&k=53ab3f2b6844a74f5fdfceedd3a4ed16';
 </script>
 
 
