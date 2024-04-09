@@ -406,13 +406,7 @@ $(document).ready(function () {
 	});
 	
 	var lang = $('html').attr('lang');
-	if(lang == 'ru'){
-		$(".return-lvl a").text('Вернуться назад');
-		}else if(lang == 'ua'){
-		$(".return-lvl a").text('Повернутися назад');
-		}else if(lang == "en"){
-		$(".return-lvl a").text('Come back');
-	}
+	$(".return-lvl a").text('Come back');
 	$('.menu .top-lvl .sub').siblings('a').on('click', function () {
 		//$(this).parents(".top-lvl").slideUp(400).siblings(".sub-lvl").empty().html($(this).siblings('.sub').clone()).slideDown(400);
 		var target = $(this).parents(".top-lvl").addClass("move").siblings(".sub-lvl");

@@ -315,7 +315,7 @@ $(document).ready(function () {
 	
 	var lang = $('html').attr('lang');
 	if(lang == 'ru'){
-		$(".return-lvl a").text('Вернуться назад');
+		$(".return-lvl a").text('Come back');
 		}else if(lang == 'ua'){
 		$(".return-lvl a").text('Повернутися назад');
 		}else if(lang == "en"){
